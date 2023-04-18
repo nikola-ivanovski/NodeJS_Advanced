@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "2634901c-2f23-4c14-a2ed-9127fecb2ccc",
+		"name": "Food Order App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14532509"
+	},
+	"item": [
+		{
+			"name": "DEFAULT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ORDERS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
