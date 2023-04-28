@@ -5,18 +5,20 @@ const orderTwo: Product = { id: '2', name: 'Second Order', price: 220 };
 const orderThree: Product = { id: '3', name: 'Third Order', price: 220 };
 const orderFour: Product = { id: '4', name: 'Fourth Order', price: 220 };
 
-export const orderFirst: Order[] = [
-  {
-    id: '1',
-    placedAt: new Date(),
-    products: [orderOne, orderTwo],
-  },
-];
+// export const orderFirst: Order[] = [
+//   {
+//     id: '1',
+//     placedAt: new Date(),
+//     description: 'First order description',
+//     products: [orderOne, orderTwo],
+//   },
+// ];
 
-export const orderScnd: Order[] = [
-  {
-    id: '2',
-    placedAt: new Date(),
-    products: [orderThree, orderFour],
-  },
-];
+// export const orderScnd: Order[] = [
+//   {
+//     id: '2',
+//     placedAt: new Date(),
+//     description: 'Second order description',
+//     products: [orderThree, orderFour],
+//   },
+// ];

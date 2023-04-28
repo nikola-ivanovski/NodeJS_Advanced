@@ -6,6 +6,7 @@ export interface Product {
 
 export interface Order {
   id: string;
-  placedAt: Date;
+  placedAt: number;
+  description: string;
   products: Product[];
 }
